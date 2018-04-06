@@ -1,0 +1,43 @@
+---
+---
+
+.home section, h1, #bell {
+  margin-bottom: 3em;
+}
+
+.home nav {
+  margin-bottom: 1em;
+}
+
+.home nav .active {
+  border-bottom: 2px solid;
+}
+
+#ongoing, #staging, #page, #friend {
+  display: none;
+}
+
+.ongoing, #ongoing a, #ongoing a:hover { color: #c25dcb; border-color: #c25dcb; }
+.completed, #completed a, #completed a:hover { color: #005000; border-color: #005000; }
+.staging, #staging a, #staging a:hover { color: #0000ff; border-color: #0000ff; }
+
+.email, #email a, #email a:hover { color: #d50000; border:none; }
+.page, #page a, #page a:hover { color: #000000; border-color: #000000; }
+.friend, #friend a, #friend a:hover { color: #ffffff; border-color: #ffffff; }
+
+.tab a {
+  display: inline-block;
+  padding-bottom: 2px;
+}
+.tab a:hover {
+  border-bottom: 2px solid transparent;
+}
+
+.no_link:hover {
+  border: none !important;
+}
+
+
+@media (max-width: 600px) {
+
+}

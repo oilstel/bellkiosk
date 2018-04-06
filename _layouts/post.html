@@ -1,0 +1,23 @@
+{% include _meta.html %}
+
+</head>
+
+<body>
+
+  <a href="/" id="bell"></a>
+
+  <div class="page">
+    <div class="content">
+
+    <h2>{{ page.title }}</h2>
+
+      {{ content }}
+
+      {% if page.next %}<a id="button" href="{{ page.next.url }}">❮</a>{% endif %}
+      {% if page.previous %}<a id="button" href="{{ page.previous.url }}">❯</a>{% endif %}</div>
+  </div>
+
+  <div id="background-image"></div>
+
+</body>
+</html>

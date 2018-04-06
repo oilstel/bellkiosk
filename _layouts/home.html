@@ -1,0 +1,67 @@
+{% include _meta.html %}
+</head>
+
+<body>
+  <div class="home">
+    <span id="bell"></span>
+
+    <h1>Bell Kiosk</h1>
+
+    <nav>
+      <a href="#ongoing" class="ongoing">Ongoing</a>, <a href="#completed" class="completed active">Completed</a>, <a href="#staging" class="staging">Staging</a>
+    </nav>
+
+    <section>
+
+      <div class="tab" id="ongoing">
+        {% for project in site.projects %}
+          {% if project.status == "ongoing" %}
+            <a {% if project.remove_link %}class="no_link"{% else %}href="http://{{ project.title }}" target="_blank"{% endif %}>{{ project.title }}</a><br>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class="tab" id="completed">
+        {% for project in site.projects %}
+          {% if project.status == "completed" %}
+            <a {% if project.remove_link %}class="no_link"{% else %}href="http://{{ project.title }}" target="_blank"{% endif %}>{{ project.title }}</a><br>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class="tab" id="staging">
+        {% for project in site.projects %}
+          {% if project.status == "staging" %}
+            <a {% if project.remove_link %}class="no_link"{% else %}href="http://{{ project.title }}" target="_blank"{% endif %}>{{ project.title }}</a><br>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+
+    <nav>
+      <a href="#email" class="email active">Email</a>, <a href="#page" class="page">Pages</a>, <a href="#friend" class="friend">Friends</a>
+    </nav>
+
+    <section>
+
+      <div class="tab" id="email">
+        <a>elliottcost@gmail.com</a>
+      </div>
+
+      <div class="tab" id="page">
+        {% for post in site.posts %}
+          <a {% if post.remove_link %}class="no_link"{% else %}href="{{ post.url }}"{% endif %}>{{ post.title }}</a><br>
+        {% endfor %}
+      </div>
+
+      <div class="tab" id="friend">
+        {% assign sorted_friends = site.data.friends | sort: 'name' %}
+        {% for friend in sorted_friends %}
+          <a {% if friend.remove_link %}class="no_link"{% else %}href="{{ friend.url }}" target="_blank"{% endif %}>{{ friend.name }}</a><br>
+        {% endfor %}
+      </div>
+
+    </section>
+  </div>
+</body>
+</html>

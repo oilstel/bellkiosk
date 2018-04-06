@@ -1,0 +1,55 @@
+---
+
+- name: Laurel Schwulst
+  url: http://beautiful-company.com
+
+- name: Lily Bartle
+  url: http://hole.earth
+
+- name: Gern en Regalia
+  url: http://gernenregalia.com
+
+- name: Joel Dean
+  url: http://joelssanddispensary.com
+
+- name: Rafael Delacruz
+  url: http://explodingjezebel.odie.us
+
+- name: Michelle Lin
+  url: http://michellelin.co/
+
+- name: Justin Caguiat
+  url: http://www.manilainstitute.org/
+
+- name: Perry Trollope
+  url: http://cpu.moe/
+
+- name: Bryce Wilner
+  url: http://www.brycewilner.com/
+
+- name: Quintessa Matranga
+  remove_link: true
+
+- name: Sean Tatol
+  url: http://www.19933.biz/
+
+- name: Madalyn Merkey
+  url: http://crossseeing.info/
+
+- name: Marc Matchak
+  url: http://marcmatchak.tumblr.com/
+
+- name: Josh Minkus
+  url: http://www.joshminkus.com/
+
+- name: Michael Guidetti
+  url: https://michaelguidetti.info
+
+- name: McIntyre Parker
+  url: http://www.pied-terre.com/
+
+- name: Haegen Crosby
+  url: http://haegencrosby.info/
+
+- name: Natalia Panzer
+  url: http://npanzer.com/

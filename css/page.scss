@@ -1,0 +1,58 @@
+---
+---
+
+$font-size: 21px;
+
+html, body {
+    height:100%;
+}
+
+#bell {
+  width: 27px;
+  height: 27px;
+  margin-bottom: 1em;
+}
+
+.page {
+  /* margin-top: 10px; */
+  padding: 15px;
+  max-width: 500px;
+  border-right: 1px solid #000;
+  background: #f3f3f3;
+  border-bottom: 1px dotted #c25dcb;
+}
+
+.page h2, .page p {
+  margin-bottom: 1em;
+}
+
+.content {
+  display: inline-block;
+}
+
+.page img {
+  max-width: 500px;
+  width: 100%;
+}
+
+.page a {
+  color: #663366;
+  // border-bottom: 1px solid #663366;
+  text-decoration: none;
+}
+
+a#button {
+  color: #fff;
+  background-color: grey;
+  padding: 3px;
+}
+
+a#button:hover {
+  background-color: #005000;
+}
+
+// @media (max-width: 500px) {
+//   .page {
+//     border-right: none;
+//   }
+// }

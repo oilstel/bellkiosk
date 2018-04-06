@@ -1,0 +1,57 @@
+---
+---
+
+
+
+$font-size: 15px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'OsakaMono';
+  src: url('../fonts/OsakaMono.eot');
+  src: url('../fonts/OsakaMono.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/OsakaMono.woff2') format('woff2'),
+       url('../fonts/OsakaMono.woff') format('woff'),
+       url('../fonts/OsakaMono.ttf') format('truetype'),
+       url('../fonts/OsakaMono.svg#contrastregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#bell {
+  width: 191px;
+  height: 191px;
+  background: url(/images/bell.svg) no-repeat;
+  background-size: 100% 100%;
+  background-repeat: no-repeat !important;
+  display: block;
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+  font-weight: initial;
+  font-size: $font-size;
+}
+
+html {
+  font-family: "OsakaMono", monospace, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  background-attachment: fixed;
+  background-color: #cedc2f;
+}
+
+body {
+  padding: 1.5em;
+  font-size: $font-size;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
