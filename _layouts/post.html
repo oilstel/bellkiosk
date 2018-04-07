@@ -4,20 +4,16 @@
 
 <body>
 
-  <a href="/" id="bell"></a>
+  <p><a href="/" id="back"></a></p>
 
   <div class="page">
-    <div class="content">
-
     <h2>{{ page.title }}</h2>
 
       {{ content }}
 
       {% if page.next %}<a id="button" href="{{ page.next.url }}">❮</a>{% endif %}
-      {% if page.previous %}<a id="button" href="{{ page.previous.url }}">❯</a>{% endif %}</div>
+      {% if page.previous %}<a id="button" href="{{ page.previous.url }}">❯</a>{% endif %}
   </div>
-
-  <div id="background-image"></div>
 
 </body>
 </html>

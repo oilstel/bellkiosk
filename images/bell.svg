@@ -1,1 +1,20 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 179 179"><defs><style>.cls-1,.cls-4,.cls-6,.cls-7{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:blue;}.cls-4,.cls-6,.cls-7{stroke:#000;}.cls-4{stroke-linejoin:round;}.cls-4,.cls-6{stroke-width:5px;}.cls-5{fill:#f0e8d9;}.cls-7{stroke-width:4px;}</style><clipPath id="clip-path"><rect class="cls-1" y="-0.16" width="178.87" height="179.16"/></clipPath></defs><title>bell</title><g class="cls-2"><path class="cls-3" d="M150.52,69.76l-2.61,29.35s2.44,15-64.28,10.94c-36.19-2.21-67.36-22.18-67.36-22.18Z"/><path class="cls-4" d="M150.52,69.76l-2.61,29.35s2.44,15-64.28,10.94c-36.19-2.21-67.36-22.18-67.36-22.18Z"/><path class="cls-5" d="M143.33,176s5.82-82.44-4.69-91c-15.79-12.83-125.84,14.9-127.12.46C8.56,51.9,119.05-1.27,176.16,16.55V176.46Z"/><path class="cls-6" d="M145.6,176s5.93-82.44-4.77-91c-16.06-12.83-128,14.9-129.31.46C8.51,51.9,120.91-1.27,179,16.55V176.46Z"/><rect class="cls-7" x="2" y="1.84" width="174.87" height="174.87"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 179 179" style="enable-background:new 0 0 179 179;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0000FF;}
+	.st1{fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round;}
+	.st2{fill:#F0E8D9;}
+	.st3{fill:none;stroke:#000000;stroke-width:5;}
+</style>
+<g>
+	<path d="M175,4v171H4V4H175 M179,0H0v179h179V0L179,0z"/>
+</g>
+<path class="st0" d="M150.5,69.8l-2.6,29.3c0,0,2.4,15-64.3,10.9c-36.2-2.2-67.4-22.2-67.4-22.2L150.5,69.8z"/>
+<path class="st1" d="M150.5,69.8l-2.6,29.3c0,0,2.4,15-64.3,10.9c-36.2-2.2-67.4-22.2-67.4-22.2L150.5,69.8z"/>
+<path class="st2" d="M144.8,176c0,0,5.9-82.4-4.7-91c-16-12.8-127.2,14.9-128.5,0.5C8.5,51.9,120.3-1.3,178,16.5v159.9L144.8,176z"
+	/>
+<path class="st3" d="M143.9,176c0,0,5.9-82.4-4.7-91C123.3,72.2,12.8,99.9,11.5,85.5c-3-33.6,108-86.7,165.4-68.9v159.9L143.9,176z"
+	/>
+</svg>
