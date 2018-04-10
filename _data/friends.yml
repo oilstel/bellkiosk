@@ -1,9 +1,12 @@
 ---
 
-- name: Laurel Schwulst
+- name: Beautiful Company
   url: http://beautiful-company.com
 
-- name: Lily Bartle
+- name: P.I.S.S.
+  url: https://www.instagram.com/pissgroup/
+
+- name: Hole, Earth, Catalog
   url: http://hole.earth
 
 - name: Gern en Regalia
@@ -12,26 +15,32 @@
 - name: Joel Dean
   url: http://joelssanddispensary.com
 
-- name: Rafael Delacruz
+- name: Exploding Jezebel
   url: http://explodingjezebel.odie.us
+
+- name: JAS
+  url: https://jas.life/
 
 - name: Michelle Lin
   url: http://michellelin.co/
 
-- name: Justin Caguiat
+- name: Manila Institute
   url: http://www.manilainstitute.org/
 
 - name: Perry Trollope
   url: http://cpu.moe/
 
+- name: Psalmus Diuersae
+  url: http://psalm.us/
+
 - name: Bryce Wilner
   url: http://www.brycewilner.com/
 
-- name: Quintessa Matranga
-  remove_link: true
-
 - name: Sean Tatol
   url: http://www.19933.biz/
+
+- name: On Purpose
+  url: http://www.19933.biz/onpurpose.html
 
 - name: Madalyn Merkey
   url: http://crossseeing.info/
@@ -39,17 +48,17 @@
 - name: Marc Matchak
   url: http://marcmatchak.tumblr.com/
 
+- name: Lynn
+  url: http://lynnnn.com/
+
 - name: Josh Minkus
   url: http://www.joshminkus.com/
 
 - name: Michael Guidetti
   url: https://michaelguidetti.info
 
-- name: McIntyre Parker
+- name: Pied-à-terre
   url: http://www.pied-terre.com/
-
-- name: Haegen Crosby
-  url: http://haegencrosby.info/
 
 - name: Natalia Panzer
   url: http://npanzer.com/
