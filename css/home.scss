@@ -10,7 +10,8 @@
 }
 
 .home nav .active {
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
+  // background-color: #225028;
 }
 
 #ongoing, #staging, #page, #friend {
@@ -32,16 +33,16 @@
 
 .tab a {
   display: inline-block;
-  padding-bottom: 2px;
-  border-bottom: 2px solid transparent;
+  padding-bottom: 1px;
+  border-bottom: 1px solid transparent;
 }
 .tab a:hover {
-  border-bottom: 2px solid transparent;
+  border-bottom: 1px solid transparent;
 }
 
 .no_link:hover {
   border: 0 !important;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 }
 
 
