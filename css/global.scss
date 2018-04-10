@@ -1,7 +1,7 @@
 ---
 ---
 
-$font-size: 18px;
+$font-size: 14px;
 
 * {
   margin: 0;
@@ -22,12 +22,13 @@ $font-size: 18px;
 }
 
 #bell {
-  width: 191px;
-  height: 191px;
-  background: url(/images/bell.svg) no-repeat;
+  width: 100px;
+  height: 100px;
+  background: url(/images/tree.svg) no-repeat;
   background-size: 100% 100%;
   background-repeat: no-repeat !important;
   display: block;
+  // border: 2px dotted #a3fb03;
 }
 
 h1, h2, p {
@@ -41,7 +42,9 @@ html {
   font-family: "OsakaMono", monospace, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;;
   -webkit-font-smoothing: antialiased;
   background-attachment: fixed;
-  background-color: #cedc2f;
+  // background-color: #cedc2f;
+  background-color: #ff9300;
+  background-color: #397f41;
 }
 
 body {

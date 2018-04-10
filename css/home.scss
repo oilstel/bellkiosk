@@ -17,14 +17,14 @@
   display: none;
 }
 
-.ongoing, #ongoing a { color: #53265e; }
-#ongoing a:hover { border-color: #53265e; }
-.completed, #completed a { color: #005000; }
-#completed a:hover { border-color: #005000; }
-.staging, #staging a { color: #0000ff; }
-#staging a:hover { border-color: #0000ff; }
+.ongoing, #ongoing a { color: #0c0199; }
+#ongoing a:hover { border-color: #0c0199; }
+.completed, #completed a { color: #ddff9c; }
+#completed a:hover { border-color: #ddff9c; }
+.staging, #staging a { color: #b1b7ff; }
+#staging a:hover { border-color: #b1b7ff; }
 
-.email, #email a, #email a:hover { color: #d50000; border:none; }
+.email, #email a, #email a:hover { color: #ff9300; border:none; }
 .page, #page a { color: #000000; }
 #page a:hover { border-color: #000000; }
 .friend, #friend a { color: #ffffff; }
