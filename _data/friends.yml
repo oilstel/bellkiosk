@@ -1,10 +1,19 @@
 ---
 
+- name: Sleepy Hollow
+  url: https://sleepyhollow.online
+
+- name: Dayton Castleman
+  url: http://sinuskid13.com
+
+- name:  Alix Jean Vollum
+  url: http://www.walgreens2.com
+
 - name: Beautiful Company
   url: http://beautiful-company.com
 
 - name: P.I.S.S.
-  url: https://www.instagram.com/pissgroup/
+  url: https://www.instagram.com/pissgroup
 
 - name: Hole, Earth, Catalog
   url: http://hole.earth
