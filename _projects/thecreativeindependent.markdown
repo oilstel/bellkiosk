@@ -1,4 +1,4 @@
 ---
 title: thecreativeindependent.com
-status: ongoing
+status: completed
 ---
