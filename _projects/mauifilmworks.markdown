@@ -1,5 +1,5 @@
 ---
 title: mauifilmworks.com
 status: completed
-published: false
+published: true
 ---
