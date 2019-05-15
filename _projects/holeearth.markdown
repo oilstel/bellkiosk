@@ -1,5 +1,5 @@
 ---
 title: hole.earth
 status: completed
-published: false
+published: true
 ---
