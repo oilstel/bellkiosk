@@ -1,5 +1,5 @@
 ---
 title: newmuseumunion.org
 status: completed
-published: false
+published: true
 ---
